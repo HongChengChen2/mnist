@@ -28,8 +28,8 @@
       <file leaf-file-name="cnnNchw.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cnnNchw.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+            <state relative-caret-position="304">
+              <caret line="159" column="28" lean-forward="true" selection-start-line="159" selection-start-column="28" selection-end-line="159" selection-end-column="28" />
               <folding>
                 <element signature="e#148#186#0" expanded="true" />
               </folding>
@@ -552,8 +552,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cnnNchw.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+        <state relative-caret-position="304">
+          <caret line="159" column="28" lean-forward="true" selection-start-line="159" selection-start-column="28" selection-end-line="159" selection-end-column="28" />
           <folding>
             <element signature="e#148#186#0" expanded="true" />
           </folding>

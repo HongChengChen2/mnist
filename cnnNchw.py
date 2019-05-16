@@ -148,13 +148,15 @@ if __name__ == '__main__':
     parser.add_argument('--data_dir', type=str,
                         default='/tmp/tensorflow/mnist/input_data',
                         help='Directory for storing input data')
+
+    #添加使可以在GPU运行
     parser.add_argument('-g', '--gpu', nargs=1,
                         choices=[0, 1], type=int, metavar='',
                         help="Run single-gpu version."
                              "Choose the GPU from: {!s}".format([0, 1]))
     args = parser.parse_args()
     if args.gpu:
-        environ["CUDA_VISIBLE_DEVICES"] = str(args.gpu)
+        environ["CUDA_VISIBLE_DEVICES"] = str(args.gpu[0])
         mode_ = 'single-gpu'
 
     FLAGS, unparsed = parser.parse_known_args()
