@@ -81,11 +81,11 @@ def conv2d(x, W):
 
 
 def max_pool_2x2(x):
-    return tf.layers.max_pooling2d(x, pool_size=[2,2], strides=[1, 2, 2, 1],
+    '''return tf.layers.max_pooling2d(x, pool_size=[2,2], strides=[1, 2, 2, 1],
           padding='valid', data_format='NCHW'
-      )
-    #return tf.nn.max_pool(x, ksize=[1, 1, 2, 2],
-     #                     strides=[1, 1, 2, 2], padding='SAME', data_format="NCHW")
+      )'''
+    return tf.nn.max_pool(x, ksize=[1, 1, 2, 2],
+                          strides=[1, 1, 2, 2], padding='SAME', data_format="NCHW")
 
 
 def weight_variable(shape):
