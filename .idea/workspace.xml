@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c762e376-1239-4a84-a27f-a859afbc256d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/cnnNchw.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnnNchw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_data/view_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +17,8 @@
       <file leaf-file-name="cnn.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cnn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="134" column="38" lean-forward="true" selection-start-line="134" selection-start-column="38" selection-end-line="137" selection-end-column="64" />
+            <state relative-caret-position="1905">
+              <caret line="134" column="38" selection-start-line="134" selection-start-column="38" selection-end-line="137" selection-end-column="64" />
               <folding>
                 <element signature="e#148#186#0" expanded="true" />
               </folding>
@@ -25,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cnnNchw.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cnnNchw.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cnnNchw.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="159" column="28" lean-forward="true" selection-start-line="159" selection-start-column="28" selection-end-line="159" selection-end-column="28" />
+            <state relative-caret-position="360">
+              <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
               <folding>
                 <element signature="e#148#186#0" expanded="true" />
               </folding>
@@ -37,20 +38,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new_data/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="321">
+              <caret line="308" column="16" selection-start-line="308" selection-start-column="16" selection-end-line="308" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gen_nn_ops.py" pinned="false" current-in-tab="false">
-        <entry file="file:///anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/python/ops/gen_nn_ops.py">
+      <file leaf-file-name="view_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new_data/view_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13560">
-              <caret line="923" column="84" selection-start-line="923" selection-start-column="80" selection-end-line="923" selection-end-column="84" />
+            <state relative-caret-position="120">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generate_MNIST_N.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/new_data/generate_MNIST_N.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -70,6 +83,8 @@
       <find>conv2d</find>
       <find>mnist</find>
       <find>flat</find>
+      <find>image</find>
+      <find>Image</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -84,11 +99,13 @@
         <option value="$PROJECT_DIR$/cnn.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/cnnNchw.py" />
+        <option value="$PROJECT_DIR$/new_data/download_data.py" />
+        <option value="$PROJECT_DIR$/new_data/view_data.py" />
+        <option value="$PROJECT_DIR$/new_data/generate_MNIST_N.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="29" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="821" />
@@ -107,6 +124,29 @@
               <item name="mnist1.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="mnist1.0" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mnist1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mnist1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mnist1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mnist1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="source_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mnist1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mnist1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="source_data" type="462c0819:PsiDirectoryNode" />
+              <item name="mnist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mnist1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mnist1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="new_data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -117,6 +157,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -133,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.cnnNchw">
+  <component name="RunManager" selected="Python.generate_MNIST_N">
     <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mnist1.0" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,7 +231,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="first" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="download_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mnist1.0" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -196,17 +239,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/new_data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new_data/download_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="tensorBoard" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="generate_MNIST_N" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mnist1.0" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -214,30 +257,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/new_data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorBoard.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new_data/generate_MNIST_N.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.first" />
       <item itemvalue="Python.cnn" />
       <item itemvalue="Python.cnnNchw" />
-      <item itemvalue="Python.tensorBoard" />
       <item itemvalue="Python.2" />
+      <item itemvalue="Python.download_data" />
+      <item itemvalue="Python.generate_MNIST_N" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.generate_MNIST_N" />
+        <item itemvalue="Python.download_data" />
         <item itemvalue="Python.cnnNchw" />
         <item itemvalue="Python.cnn" />
         <item itemvalue="Python.2" />
-        <item itemvalue="Python.tensorBoard" />
-        <item itemvalue="Python.first" />
       </list>
     </recent_temporary>
   </component>
@@ -255,17 +298,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="23" width="1440" height="821" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="821" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3121547" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5345304" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32872927" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32872927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -291,6 +333,33 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1905">
+          <caret line="134" column="38" lean-forward="true" selection-start-line="134" selection-start-column="38" selection-end-line="137" selection-end-column="64" />
+          <folding>
+            <element signature="e#148#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/python/ops/gen_nn_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13845">
+          <caret line="923" column="84" selection-start-line="923" selection-start-column="80" selection-end-line="923" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnnNchw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+          <folding>
+            <element signature="e#148#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cnn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1815">
@@ -533,30 +602,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cnn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="134" column="38" lean-forward="true" selection-start-line="134" selection-start-column="38" selection-end-line="137" selection-end-column="64" />
+        <state relative-caret-position="1905">
+          <caret line="134" column="38" selection-start-line="134" selection-start-column="38" selection-end-line="137" selection-end-column="64" />
           <folding>
             <element signature="e#148#186#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cnnNchw.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="159" column="28" lean-forward="true" selection-start-line="159" selection-start-column="28" selection-end-line="159" selection-end-column="28" />
+        <state relative-caret-position="360">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
           <folding>
             <element signature="e#148#186#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_data/download_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_data/vew_data.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_data/view_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_data/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="308" column="16" selection-start-line="308" selection-start-column="16" selection-end-line="308" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_data/generate_MNIST_N.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
